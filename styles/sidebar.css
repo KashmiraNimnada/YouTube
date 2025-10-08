@@ -4,5 +4,27 @@
   top: 55px;
   left: 0;
   bottom: 0;
-  width: 74px;
+  width: 72px;
+  z-index: 200;
 }
+
+.side-bar-options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  font-family: Roboto,Arial;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.side-bar-options-container:hover {
+  background-color: rgb(237, 235, 235);
+}
+
+.side-bar-options-container img {
+  height: 24px;
+  margin-bottom: 6.5px;
+}
+

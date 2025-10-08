@@ -8,14 +8,14 @@
 .video-content {
   display: inline-block;
 }
+
 .channel-img {
-  width: 50px;
   vertical-align: top;
 }
 
 .chan-img {
-  width: 100%;
-  border-radius: 25px;
+  width: 36px;
+  border-radius: 18px;
 }
 .img-status {
   margin-bottom: 10px;
@@ -55,7 +55,7 @@
 }
 .video-desc-grid {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 36px 1fr;
   column-gap: 12px;
 }
 .video-grid {
